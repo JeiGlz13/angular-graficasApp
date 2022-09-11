@@ -25,7 +25,7 @@ export class BarrasComponent {
   public barChartData: ChartData<'bar'> = {
     labels: [ '2016', '2017', '2018', '2019', '2020', '2021', '2022' ],
     datasets: [
-      { data: [ 65, 59, 80, 81, 56, 55, 40 ], label: 'Series A', backgroundColor: '#EB5050' },
+      { data: [ 65, 59, 80, 81, 56, 55, 40 ], label: 'Serie A', backgroundColor: '#EB5050' },
       { data: [ 28, 48, 40, 19, 86, 27, 90 ], label: 'Liga BBVA', backgroundColor: '#2E739E' },
       { data: [ 28, 48, 40, 19, 86, 27, 90 ], label: 'Premier League', backgroundColor: '#EBE967' },
     ]

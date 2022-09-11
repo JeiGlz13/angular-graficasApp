@@ -1,0 +1,23 @@
+<h2>Gráfica de Barras</h2>
+<hr>
+
+<div class="row">
+  <div class="col">
+    <div style="display: block">
+      <canvas
+        baseChart
+        [data]="barChartData"
+        [options]="barChartOptions"
+        [type]="barChartType"
+      >
+      </canvas>
+    </div>
+    <button
+      (click)="randomize()"
+      class="btn btn-primary float-end mt-2"
+    >
+      Actualizar
+    </button>
+  </div>
+</div>
+
